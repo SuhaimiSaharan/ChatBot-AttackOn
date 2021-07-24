@@ -100,7 +100,11 @@ sport_facility = [
     "UTP have Kayak sport?",
     "You can play Kayak at Oval Park",
     "Oval Park",
-    "Anyone can jog or picnic at Oval Park"
+    "Anyone can jog or picnic at Oval Park",
+    "Is there any squash court?",
+    "We do have squash court at Block A",
+    "When can I enter swimming pool?",
+    "Monday is for male, Tuesday is for female and continue"
 ]
 
 trainer = ListTrainer(bot)
