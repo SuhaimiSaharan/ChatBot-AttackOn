@@ -106,9 +106,29 @@ sport_facility = [
     "When can I enter swimming pool?",
     "Monday is for male, Tuesday is for female and continue"
 ]
+academic_block = [
+    "Where is foundation block?",
+    "It is located at Block I, J and K. In front of CETAL",
+    "Where is IT/IS block?",
+    "Located at Block 1 and Block 2, near the chancellor hall",
+    "Where is civil engineering block?",
+    "Near at pocket C",
+    "Where is chemical engineering block?",
+    "Located at Block 3 and Block 4",
+    "Where is master student block?",
+    "Located near at the back of chancellor hall, left side of gate 3",
+    "Where is common exam hall located?",
+    "Usually it will be located at Main Hall, Chancellor Hall, Undercroft or CETAL",
+    "Where can I find security office?",
+    "At Block O",
+    "Is there any clinic in UTP?",
+    "Yes, it is located at Pocket C named Klinik Redza and it operate 24 hours",
+    "Where is library in UTP?",
+    "It is called IRC (Information Resource Center) located in front of Chancellor Hall",
+]
 
 trainer = ListTrainer(bot)
-for items in (greetings, mosque, cafeQuest, rv, sport_facility, conversation):
+for items in (greetings, mosque, cafeQuest, rv, sport_facility, conversation, academic_block):
     trainer.train(items)
 
 # corpus_trainer = ChatterBotCorpusTrainer(bot)
