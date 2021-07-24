@@ -91,20 +91,18 @@ sport_facility = [
     "At block A, block A is in front Masjid An Nur",
     "Where can I swim?",
     "You can go to pool in front Masjid An'Nur",
-    "Where can I play Futsal",
+    "Where can I play Futsal?",
     "We have Futsal court at village 5 and at block A",
-    "Gym Utp",
+    "Where is Gym in Utp?",
     "You can find our gym at curriculum block",
     "Where can I play football?",
     "We have 3 fields that you can reach from UTP's Gate",
-    "UTP have Kayak sport?",
+    "Do UTP have Kayak sport?",
     "You can play Kayak at Oval Park",
-    "Oval Park",
-    "Anyone can jog or picnic at Oval Park",
-    "Is there any squash court?",
-    "We do have squash court at Block A",
-    "When can I enter swimming pool?",
-    "Monday is for male, Tuesday is for female and continue"
+    "Where can I jog?",
+    "Anyone can jog at Oval Park",
+    "Where can I picnic?",
+    "Anyone can picnic at Oval Park"
 ]
 academic_block = [
     "Where is foundation block?",
