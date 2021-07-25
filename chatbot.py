@@ -5,16 +5,20 @@ from chatterbot.trainers import ListTrainer
 
 app = Flask(__name__)
 
-with open('file.txt', 'r') as file:
-    conversation = file.read()
-
 botname = "PetroBot"
 bot = ChatBot(
     botname,
     logic_adapters=["chatterbot.logic.MathematicalEvaluation",
                     "chatterbot.logic.BestMatch"
                     ])
+
+with open('file.txt', 'r') as file:
+    conversation = file.read()
+
 bot.storage.drop()
+
+ignore_words = ["?", "!", "/"]
+
 
 mosque = [
     "where is mosque?",
